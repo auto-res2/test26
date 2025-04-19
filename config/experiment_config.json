@@ -1,0 +1,23 @@
+{
+  "experiments": {
+    "latent_adaptation": {
+      "num_epochs": 3,
+      "batch_size": 64,
+      "batch_limit": 20,
+      "latent_dim": 128,
+      "learning_rate": 1e-4
+    },
+    "token_vs_cnn": {
+      "noise_dim": 100,
+      "token_dim": 32,
+      "num_tokens": 8,
+      "resolutions": [8, 16, 32, 64]
+    },
+    "joint_training": {
+      "num_epochs": 3,
+      "latent_dim": 64,
+      "token_dim": 16,
+      "num_tokens": 4
+    }
+  }
+}
