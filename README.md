@@ -1,1 +1,8 @@
-# gpu-repository
+
+# Adaptive Token-and-Latent Wasserstein GAN for Resolution-Flexible Generation
+> ⚠️ **NOTE:** This research is an automatic research using Research Graph.
+## Abstract
+This paper introduces ATL-WGAN, a novel generative framework that unifies adaptive latent-space estimation with a token-based generator architecture to address two central challenges: discovering the intrinsic manifold dimension of data and generating images at arbitrary resolutions. By building on latent-dimension adaptation from LWGAN and incorporating a Vision-Transformer-inspired tokenization module, ATL-WGAN dynamically updates the latent prior while encoding images as sequences of tokens. This joint approach enables the network to accurately capture the true data geometry and flexibly reconstruct outputs across varying scales and aspect ratios without retraining. We validate the framework through experiments on standard datasets such as CIFAR-10, MNIST, and CelebA, evaluating reconstruction quality, inception scores, Fréchet inception distances, and resolution generalization. The experimental results confirm that ATL-WGAN effectively identifies the intrinsic latent dimension and generates high-quality images across multiple resolutions, while the token-based generator outperforms conventional CNN-based architectures in handling variable image scales.
+
+- [Research history](https://github.com/auto-res2/test26/blob/test/.research/research_history.json)
+- [Devin execution log](https://app.devin.ai/sessions/d8434b51ca7b44a6945fa0757ca014ff)
